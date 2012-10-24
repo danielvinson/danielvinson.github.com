@@ -1,9 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('raleway'), url(../fonts/raleway_thin-webfont.woff) format('woff');
+}
+
 body {
 
   padding:50px;
-  font-family: 14px/1.5 "raleway",sans-serif;
+  font-family: "raleway",sans-serif;
   color:#777;
   font-weight:300;
 }

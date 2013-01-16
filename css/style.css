@@ -9,14 +9,15 @@
 
 body {
 
-  padding:50px;
+  padding:0px;
+  margin: 0;
   font-family: "raleway",sans-serif;
-  color:#777;
+
   font-weight:300;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+
   margin:0 0 20px;
 }
 
@@ -33,12 +34,12 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+
 }
 
 h3 {
   width: 15%;
-  color:#494949;
+
   padding-top: 5px;
   font-size: 1.6em;
   border-bottom: 1px solid black;
@@ -46,9 +47,10 @@ h3 {
 }
 
 a {
-  color:#393939;
-  font-weight:400;
-  text-decoration:none;
+  color:#c6c6c6;
+  font-weight:800;
+  text-decoration:underline;
+  
 }
 
 a small {
@@ -137,9 +139,40 @@ footer {
   bottom:50px;
 }
 
+.content
+{
+    padding-top: 100px;
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px solid black;
+    
+    background: #555;
+    color: #fff;
+    
+    text-align: center;
+}
+
+.projects
+{
+    padding-top: 100px;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    background: #aaa;
+    color: #000;
+    border-top: 1px solid #fff;
+}
+
+.projects ul
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
 .projects li
 {
-    	list-style-type: none;
+    list-style-type: none;
 	display: block;
 	float: left;
 	margin-right: 10px;
